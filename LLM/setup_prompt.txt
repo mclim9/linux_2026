@@ -1,0 +1,8 @@
+I'm trying to connect open webui to my ollama.
+Both are running on my laptop.
+http://localhost:3000/ loads ok
+sudo systemctl show ollama --property=Environment returns "Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
+http://host.docker.internal:11434 does not load
+curl http://localhost:11434/api/tags  works
+what is next step?
+
