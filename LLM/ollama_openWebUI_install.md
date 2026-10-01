@@ -1,4 +1,4 @@
-# Markdown
+# Install ollama and open-WebUI
 
 ## docker
 sudo apt install docker.io
